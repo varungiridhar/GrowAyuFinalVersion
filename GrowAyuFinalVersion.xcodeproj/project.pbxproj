@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68CA3821247C357F00EC2F43 /* DoctorSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA3820247C357F00EC2F43 /* DoctorSearchController.swift */; };
+		68CA3825247C364E00EC2F43 /* BookAppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA3824247C364E00EC2F43 /* BookAppointmentController.swift */; };
+		68CA3827247C365D00EC2F43 /* HospitalsClinicsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA3826247C365D00EC2F43 /* HospitalsClinicsController.swift */; };
+		68CA3829247C367400EC2F43 /* MyDoctorsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA3828247C367400EC2F43 /* MyDoctorsController.swift */; };
+		68CA382B247C368F00EC2F43 /* MyConsultationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA382A247C368F00EC2F43 /* MyConsultationsController.swift */; };
+		68CA382D247C369B00EC2F43 /* MyHealthRecordsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA382C247C369B00EC2F43 /* MyHealthRecordsController.swift */; };
 		68DD3F3C2474326600282998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F3B2474326600282998 /* AppDelegate.swift */; };
 		68DD3F3E2474326600282998 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F3D2474326600282998 /* SceneDelegate.swift */; };
-		68DD3F402474326600282998 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F3F2474326600282998 /* ContentView.swift */; };
 		68DD3F422474326800282998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD3F412474326800282998 /* Assets.xcassets */; };
 		68DD3F452474326800282998 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68DD3F442474326800282998 /* Preview Assets.xcassets */; };
 		68DD3F482474326800282998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68DD3F462474326800282998 /* LaunchScreen.storyboard */; };
+		68DD3F562474328700282998 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F512474328700282998 /* ContainerController.swift */; };
+		68DD3F572474328700282998 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F522474328700282998 /* HomeController.swift */; };
+		68DD3F582474328700282998 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F532474328700282998 /* MenuController.swift */; };
+		68DD3F5A2474438100282998 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F592474438100282998 /* Protocols.swift */; };
+		68DD3F5C24744AFE00282998 /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F5B24744AFE00282998 /* MenuOptionCell.swift */; };
+		68DD3F5E2475002D00282998 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F5D2475002D00282998 /* MenuOption.swift */; };
+		68DD3F6024759C0200282998 /* BarFAQController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F5F24759C0200282998 /* BarFAQController.swift */; };
+		68DD3F622476459200282998 /* BarTandCController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F612476459200282998 /* BarTandCController.swift */; };
+		68DD3F64247645A200282998 /* BarPPolicyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F63247645A200282998 /* BarPPolicyController.swift */; };
+		68DD3F66247645B600282998 /* BarAboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F65247645B600282998 /* BarAboutController.swift */; };
+		68DD3F68247645CC00282998 /* BarContactController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F67247645CC00282998 /* BarContactController.swift */; };
+		68DD3F6A247645E200282998 /* BarSuggestDocController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F69247645E200282998 /* BarSuggestDocController.swift */; };
+		68DD3F6C247645F800282998 /* BarCoporateProgController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F6B247645F800282998 /* BarCoporateProgController.swift */; };
+		68DD3F6E2476460B00282998 /* BarAppInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F6D2476460B00282998 /* BarAppInfoController.swift */; };
+		68DD3F702476461500282998 /* BarTutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F6F2476461500282998 /* BarTutorialController.swift */; };
+		68DD3F722476462100282998 /* BarLogoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F712476462100282998 /* BarLogoutController.swift */; };
+		68DD3F76247646B300282998 /* BarProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DD3F75247646B300282998 /* BarProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68CA3820247C357F00EC2F43 /* DoctorSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorSearchController.swift; sourceTree = "<group>"; };
+		68CA3824247C364E00EC2F43 /* BookAppointmentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookAppointmentController.swift; sourceTree = "<group>"; };
+		68CA3826247C365D00EC2F43 /* HospitalsClinicsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalsClinicsController.swift; sourceTree = "<group>"; };
+		68CA3828247C367400EC2F43 /* MyDoctorsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDoctorsController.swift; sourceTree = "<group>"; };
+		68CA382A247C368F00EC2F43 /* MyConsultationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConsultationsController.swift; sourceTree = "<group>"; };
+		68CA382C247C369B00EC2F43 /* MyHealthRecordsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHealthRecordsController.swift; sourceTree = "<group>"; };
 		68DD3F382474326600282998 /* GrowAyuFinalVersion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrowAyuFinalVersion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68DD3F3B2474326600282998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68DD3F3D2474326600282998 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68DD3F3F2474326600282998 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68DD3F412474326800282998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68DD3F442474326800282998 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68DD3F472474326800282998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68DD3F492474326800282998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68DD3F512474328700282998 /* ContainerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
+		68DD3F522474328700282998 /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		68DD3F532474328700282998 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		68DD3F592474438100282998 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		68DD3F5B24744AFE00282998 /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		68DD3F5D2475002D00282998 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		68DD3F5F24759C0200282998 /* BarFAQController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarFAQController.swift; sourceTree = "<group>"; };
+		68DD3F612476459200282998 /* BarTandCController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTandCController.swift; sourceTree = "<group>"; };
+		68DD3F63247645A200282998 /* BarPPolicyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarPPolicyController.swift; sourceTree = "<group>"; };
+		68DD3F65247645B600282998 /* BarAboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAboutController.swift; sourceTree = "<group>"; };
+		68DD3F67247645CC00282998 /* BarContactController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarContactController.swift; sourceTree = "<group>"; };
+		68DD3F69247645E200282998 /* BarSuggestDocController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarSuggestDocController.swift; sourceTree = "<group>"; };
+		68DD3F6B247645F800282998 /* BarCoporateProgController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCoporateProgController.swift; sourceTree = "<group>"; };
+		68DD3F6D2476460B00282998 /* BarAppInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarAppInfoController.swift; sourceTree = "<group>"; };
+		68DD3F6F2476461500282998 /* BarTutorialController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarTutorialController.swift; sourceTree = "<group>"; };
+		68DD3F712476462100282998 /* BarLogoutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarLogoutController.swift; sourceTree = "<group>"; };
+		68DD3F75247646B300282998 /* BarProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68CA3822247C360E00EC2F43 /* Services Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68CA3824247C364E00EC2F43 /* BookAppointmentController.swift */,
+				68CA3826247C365D00EC2F43 /* HospitalsClinicsController.swift */,
+			);
+			path = "Services Controllers";
+			sourceTree = "<group>";
+		};
+		68CA3823247C363000EC2F43 /* MyCircle Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68CA3828247C367400EC2F43 /* MyDoctorsController.swift */,
+				68CA382A247C368F00EC2F43 /* MyConsultationsController.swift */,
+				68CA382C247C369B00EC2F43 /* MyHealthRecordsController.swift */,
+			);
+			path = "MyCircle Controllers";
+			sourceTree = "<group>";
+		};
 		68DD3F2F2474326600282998 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +119,12 @@
 		68DD3F3A2474326600282998 /* GrowAyuFinalVersion */ = {
 			isa = PBXGroup;
 			children = (
+				68DD3F502474328700282998 /* Controller */,
+				68DD3F542474328700282998 /* Model */,
+				68DD3F552474328700282998 /* Utils */,
+				68DD3F4F2474328600282998 /* View */,
 				68DD3F3B2474326600282998 /* AppDelegate.swift */,
 				68DD3F3D2474326600282998 /* SceneDelegate.swift */,
-				68DD3F3F2474326600282998 /* ContentView.swift */,
 				68DD3F412474326800282998 /* Assets.xcassets */,
 				68DD3F462474326800282998 /* LaunchScreen.storyboard */,
 				68DD3F492474326800282998 /* Info.plist */,
@@ -73,6 +139,62 @@
 				68DD3F442474326800282998 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68DD3F4F2474328600282998 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68DD3F5B24744AFE00282998 /* MenuOptionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68DD3F502474328700282998 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				68CA3823247C363000EC2F43 /* MyCircle Controllers */,
+				68CA3822247C360E00EC2F43 /* Services Controllers */,
+				68DD3F512474328700282998 /* ContainerController.swift */,
+				68CA3820247C357F00EC2F43 /* DoctorSearchController.swift */,
+				68DD3F522474328700282998 /* HomeController.swift */,
+				68DD3F532474328700282998 /* MenuController.swift */,
+				68DD3F742476463400282998 /* Bar Controllers */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		68DD3F542474328700282998 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68DD3F5D2475002D00282998 /* MenuOption.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		68DD3F552474328700282998 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				68DD3F592474438100282998 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		68DD3F742476463400282998 /* Bar Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68DD3F75247646B300282998 /* BarProfileController.swift */,
+				68DD3F5F24759C0200282998 /* BarFAQController.swift */,
+				68DD3F612476459200282998 /* BarTandCController.swift */,
+				68DD3F63247645A200282998 /* BarPPolicyController.swift */,
+				68DD3F65247645B600282998 /* BarAboutController.swift */,
+				68DD3F67247645CC00282998 /* BarContactController.swift */,
+				68DD3F69247645E200282998 /* BarSuggestDocController.swift */,
+				68DD3F6B247645F800282998 /* BarCoporateProgController.swift */,
+				68DD3F6D2476460B00282998 /* BarAppInfoController.swift */,
+				68DD3F6F2476461500282998 /* BarTutorialController.swift */,
+				68DD3F712476462100282998 /* BarLogoutController.swift */,
+			);
+			path = "Bar Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +268,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68CA3821247C357F00EC2F43 /* DoctorSearchController.swift in Sources */,
+				68DD3F6024759C0200282998 /* BarFAQController.swift in Sources */,
+				68DD3F5C24744AFE00282998 /* MenuOptionCell.swift in Sources */,
+				68DD3F76247646B300282998 /* BarProfileController.swift in Sources */,
+				68DD3F622476459200282998 /* BarTandCController.swift in Sources */,
+				68DD3F5E2475002D00282998 /* MenuOption.swift in Sources */,
+				68DD3F702476461500282998 /* BarTutorialController.swift in Sources */,
 				68DD3F3C2474326600282998 /* AppDelegate.swift in Sources */,
+				68CA3827247C365D00EC2F43 /* HospitalsClinicsController.swift in Sources */,
+				68DD3F6A247645E200282998 /* BarSuggestDocController.swift in Sources */,
+				68CA382D247C369B00EC2F43 /* MyHealthRecordsController.swift in Sources */,
+				68DD3F722476462100282998 /* BarLogoutController.swift in Sources */,
+				68CA3825247C364E00EC2F43 /* BookAppointmentController.swift in Sources */,
 				68DD3F3E2474326600282998 /* SceneDelegate.swift in Sources */,
-				68DD3F402474326600282998 /* ContentView.swift in Sources */,
+				68DD3F6C247645F800282998 /* BarCoporateProgController.swift in Sources */,
+				68DD3F562474328700282998 /* ContainerController.swift in Sources */,
+				68DD3F66247645B600282998 /* BarAboutController.swift in Sources */,
+				68DD3F64247645A200282998 /* BarPPolicyController.swift in Sources */,
+				68DD3F6E2476460B00282998 /* BarAppInfoController.swift in Sources */,
+				68CA382B247C368F00EC2F43 /* MyConsultationsController.swift in Sources */,
+				68DD3F68247645CC00282998 /* BarContactController.swift in Sources */,
+				68DD3F5A2474438100282998 /* Protocols.swift in Sources */,
+				68DD3F582474328700282998 /* MenuController.swift in Sources */,
+				68DD3F572474328700282998 /* HomeController.swift in Sources */,
+				68CA3829247C367400EC2F43 /* MyDoctorsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,13 +433,14 @@
 				DEVELOPMENT_TEAM = FV6HV933BC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GrowAyuFinalVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = VarunGiridhar.GrowAyuFinalVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,13 +454,14 @@
 				DEVELOPMENT_TEAM = FV6HV933BC;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GrowAyuFinalVersion/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = VarunGiridhar.GrowAyuFinalVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
