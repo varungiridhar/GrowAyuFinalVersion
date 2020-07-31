@@ -32,7 +32,7 @@ class MyHealthRecordsController: UIViewController{
         navigationController?.navigationBar.barStyle = .black
         navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0.3411764801, green: 0.6235294342, blue: 0.1686274558, alpha: 1)
 
-        navigationItem.title = "Home"
+        navigationItem.title = "Health Records"
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "ic_previous").withRenderingMode(.alwaysOriginal), style: .plain, target: self, action: #selector(previousController))
     }
 }

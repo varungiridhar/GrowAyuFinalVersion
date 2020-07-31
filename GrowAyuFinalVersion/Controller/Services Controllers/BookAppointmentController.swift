@@ -18,6 +18,7 @@ class BookAppointmentController: UIViewController, UITextFieldDelegate{
     //MARK: - Properties
     
     var specialButton: UIButton!
+    var applyFilterButton: UIButton!
     var languageButton: UIButton!
     var hospitalButton: UIButton!
     let pickerView = UIPickerView()
@@ -90,15 +91,16 @@ class BookAppointmentController: UIViewController, UITextFieldDelegate{
 //        hospitalButton.layer.shadowOpacity = 1
 //        languageButton.layer.shadowOffset = .zero
 //        hospitalButton.layer.shadowRadius = 1
+        
+        applyFilterButton = UIButton(frame: CGRect(x: 10, y: 150 + 5*buttonheight + 15, width: (view.frame.width) - 20, height: view.frame.height/20))
+        applyFilterButton.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
+        applyFilterButton.setTitle("Apply Filter", for: .normal)
 
 
         view.addSubview(specialButton)
         view.addSubview(languageButton)
         view.addSubview(hospitalButton)
-
-        
-        
-        
+        view.addSubview(applyFilterButton)
         view.addSubview(sampleTextField)
     }
     
